@@ -259,4 +259,50 @@ footer .redes-sociales .lista-links button {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+input[type=submit] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=usuario.css.map */
