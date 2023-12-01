@@ -4,12 +4,26 @@
   margin: 0;
 }
 
+.btn-primary {
+  background-color: rgb(0, 0, 0);
+  border-color: black;
+}
+.btn-primary:hover {
+  background-color: orange;
+  color: black;
+  border-color: black;
+}
+
 ul {
   list-style: none;
 }
 
 a {
   color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
   text-decoration: none;
 }
 
@@ -51,16 +65,19 @@ header {
   width: 100%;
   height: 100%;
   background-color: transparent;
-  border: none;
 }
-.buscador button {
+.buscador input border {
+  color: orange;
+}
+
+button {
   width: 18%;
   height: 100%;
   background-color: transparent;
   border: none;
   color: orange;
 }
-.buscador button:hover {
+button:hover {
   background-color: #cc8400;
 }
 
@@ -113,9 +130,11 @@ main {
 .seccion-recomendados {
   width: 100%;
   margin: 35px 0;
+  justify-content: space-around;
 }
-.seccion-recomendados h1 {
+.seccion-recomendados h2 {
   padding: 35px 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contenedor-tarjeta-recomendados {
@@ -153,6 +172,19 @@ main {
 }
 .contenedor-tarjeta-recomendados .tarjeta-recomendados div button:hover {
   background-color: rgb(177, 115, 0);
+}
+
+.carousel-item .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.card {
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.29);
+  margin: 18px 0px;
 }
 
 .banner-publicitarios {
