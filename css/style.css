@@ -300,11 +300,13 @@ footer .redes-sociales .lista-links ul {
 footer .redes-sociales .lista-links ul li:hover {
   color: orange;
 }
-footer .redes-sociales .lista-links button {
+footer .redes-sociales .lista-links 
+
+button {
   height: fit-content;
   padding: 7px;
   border-radius: 5px;
-  background-color: #888888;
+  background-color: #6a6a6a;
   color: whitesmoke;
 }
 
