@@ -232,6 +232,13 @@ main {
   flex-direction: column;
   gap: 30px;
 
+  h2 {
+    padding: 35px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  
+
   .logo-marcas {
     display: flex;
     justify-content: space-around;
@@ -287,6 +294,26 @@ main {
   }
 }
 
+main
+.container-fluid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container.producto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+ // width: calc(30% - 10px);
+    margin-bottom: 20px;
+}
+
 footer {
   width: 100%;
   display: flex;
@@ -314,9 +341,17 @@ footer {
       @media (max-width: 560px) {
         flex-direction: column;
       }
+       
     }
 
-    
+    .boton-arrepentimiento {
+      height: fit-content;
+      width: fit-content;
+      padding: 7px;
+      border-radius: 5px;
+      background-color: #6a6a6a;
+      color: whitesmoke;
+    }
 
     .logo-footer {
       max-width: 150px;
@@ -348,13 +383,7 @@ footer {
         }
       }
 
-      button {
-        height: fit-content;
-        padding: 7px;
-        border-radius: 5px;
-        background-color: #6a6a6a;
-        color: whitesmoke;
-      }
+      
     }
   }
 }
